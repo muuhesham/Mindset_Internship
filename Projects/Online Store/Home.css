@@ -1,0 +1,142 @@
+.font{
+    font-family: "Notable", system-ui;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: "Rajdhani", system-ui;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0%;
+    width: 100%;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 5px 10px;
+    background-color: #fff;
+    margin: 25px 0px;
+}
+
+.search-container input[type="text"] {
+    border: 0px;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 500px;
+}
+
+.search-container input[type="text"]::placeholder {
+    color: #999;
+}
+
+.search-container button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.search-container button img {
+    width: 20px;
+    height: 20px;
+}
+
+.main{
+    padding: 0px 20px;
+    font-family: "Notable", sans-serif;
+}
+#qoute {
+        animation: blinkAnimation 2s infinite;
+        
+    }
+@keyframes blinkAnimation {
+
+        100% {
+            opacity: 1;
+            
+        }
+
+        50% {
+            opacity: 0;
+            
+        }
+}
+#qoute {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    padding-left: 90px;
+    color: yellow;
+}
+/* .main{
+    border: 2px solid yellow;
+} */
+nav{
+    display: flex;
+    font-weight: 600;
+}
+.main a{
+    text-decoration: none;
+    color: yellow;
+    font-size:large;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    
+}
+/* .second{
+    display: flex;
+    justify-content: end;
+    
+}
+.second a{
+    text-decoration: none;
+    color: yellow;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    font-size:smaller;
+} */
+a:hover{
+    color: rgb(199, 199, 11);
+    border-color: rgb(199, 199, 11);
+    border-radius: 1px;
+    font-size:large;
+    
+}
+.main {
+    font-family: "Rajdhani", sans-serif;
+    display: flex;
+    justify-content:space-between;
+    font-size: larger;
+}
+.desc{
+    width: 500px;
+}
+section{
+    font-size: larger;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+aside img {
+        transition: transform 0.3s ease-out;
+}
+
+aside img:hover {
+        transform: scale(1.1);
+}
+
+aside img{
+    border-radius: 40px;
+    border: 3px solid ;
+    border-color: rgb(255, 255, 0);
+    
+}
+footer{
+    text-align: center;
+}

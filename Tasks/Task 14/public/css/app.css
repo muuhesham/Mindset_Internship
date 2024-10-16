@@ -1,0 +1,33 @@
+body {
+    margin: 5%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table,
+td,
+th{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0.293);
+    border-collapse: collapse;
+    padding: 15px;
+
+}
+th{
+    background-color: rgba(215, 215, 215, 0.829);
+}
+td , th{
+    text-align: center;
+    vertical-align: middle;
+    height: 20px;
+}
+
+tr:nth-child(even){
+    background-color: rgba(200, 230, 255, 0.5);
+}
+tr:nth-child(odd){
+    background-color: rgba(220, 228, 234, 0.5);
+}
