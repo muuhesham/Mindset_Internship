@@ -23,5 +23,5 @@ This repository showcases the projects developed during my **Summer Training at 
 4. **CRUD System**: A system to perform Create, Read, Update, and Delete operations on database entities.
 
 ## Thanks
-Special thanks to **Mindset** and **CEO & My Instructor** @nagwaali for providing me with the opportunity to intern as a Backend Developer. This experience has greatly contributed to my growth as a developer.
+Special thanks to **Mindset** and **CEO & My Instructor** @Nagwa138 for providing me with the opportunity to intern as a Backend Developer. This experience has greatly contributed to my growth as a developer.
 Mindset Linkedin Page: https://www.linkedin.com/company/mindsetraining/posts/?feedView=all
